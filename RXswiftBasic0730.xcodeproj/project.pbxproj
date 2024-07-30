@@ -17,6 +17,8 @@
 		AA64D4EF2C5938DE00CC9FE1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA64D4EE2C5938DE00CC9FE1 /* SnapKit */; };
 		AA64D4F22C59390500CC9FE1 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = AA64D4F12C59390500CC9FE1 /* RxCocoa */; };
 		AA64D4F42C59390500CC9FE1 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AA64D4F32C59390500CC9FE1 /* RxSwift */; };
+		AA64D4F72C593E1400CC9FE1 /* BasicButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D4F62C593E1400CC9FE1 /* BasicButtonViewController.swift */; };
+		AA64D4F92C593EFD00CC9FE1 /* ButtonRxTapVsLabelRxTex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D4F82C593EFD00CC9FE1 /* ButtonRxTapVsLabelRxTex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		AA64D4E22C59363200CC9FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA64D4E42C59363200CC9FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA64D4EB2C5938CC00CC9FE1 /* BasicPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicPracticeVC.swift; sourceTree = "<group>"; };
+		AA64D4F62C593E1400CC9FE1 /* BasicButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButtonViewController.swift; sourceTree = "<group>"; };
+		AA64D4F82C593EFD00CC9FE1 /* ButtonRxTapVsLabelRxTex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRxTapVsLabelRxTex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +68,10 @@
 		AA64D4D52C59363000CC9FE1 /* RXswiftBasic0730 */ = {
 			isa = PBXGroup;
 			children = (
-				AA64D4EA2C5938B000CC9FE1 /* 수업연습 */,
+				AA64D4F52C593D1900CC9FE1 /* 수업복습 */,
+				AA64D4EA2C5938B000CC9FE1 /* 과제 */,
 				AA64D4D62C59363000CC9FE1 /* AppDelegate.swift */,
 				AA64D4D82C59363000CC9FE1 /* SceneDelegate.swift */,
-				AA64D4DA2C59363000CC9FE1 /* ViewController.swift */,
 				AA64D4DC2C59363000CC9FE1 /* Main.storyboard */,
 				AA64D4DF2C59363200CC9FE1 /* Assets.xcassets */,
 				AA64D4E12C59363200CC9FE1 /* LaunchScreen.storyboard */,
@@ -76,13 +80,33 @@
 			path = RXswiftBasic0730;
 			sourceTree = "<group>";
 		};
-		AA64D4EA2C5938B000CC9FE1 /* 수업연습 */ = {
+		AA64D4EA2C5938B000CC9FE1 /* 과제 */ = {
 			isa = PBXGroup;
 			children = (
 				AA64D4EB2C5938CC00CC9FE1 /* BasicPracticeVC.swift */,
+				AA64D4DA2C59363000CC9FE1 /* ViewController.swift */,
 			);
-			name = "수업연습";
+			name = "과제";
 			path = "수업연습";
+			sourceTree = "<group>";
+		};
+		AA64D4F52C593D1900CC9FE1 /* 수업복습 */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D4FA2C593F0300CC9FE1 /* button.rx.tap과 label.rx.text의 차이점 */,
+				AA64D4F62C593E1400CC9FE1 /* BasicButtonViewController.swift */,
+			);
+			name = "수업복습";
+			path = "수업복습";
+			sourceTree = "<group>";
+		};
+		AA64D4FA2C593F0300CC9FE1 /* button.rx.tap과 label.rx.text의 차이점 */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D4F82C593EFD00CC9FE1 /* ButtonRxTapVsLabelRxTex.swift */,
+			);
+			name = "button.rx.tap과 label.rx.text의 차이점";
+			path = "button.rx.tap과 label.rx.text의 차이점";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +191,8 @@
 			files = (
 				AA64D4DB2C59363000CC9FE1 /* ViewController.swift in Sources */,
 				AA64D4D72C59363000CC9FE1 /* AppDelegate.swift in Sources */,
+				AA64D4F72C593E1400CC9FE1 /* BasicButtonViewController.swift in Sources */,
+				AA64D4F92C593EFD00CC9FE1 /* ButtonRxTapVsLabelRxTex.swift in Sources */,
 				AA64D4EC2C5938CC00CC9FE1 /* BasicPracticeVC.swift in Sources */,
 				AA64D4D92C59363000CC9FE1 /* SceneDelegate.swift in Sources */,
 			);
