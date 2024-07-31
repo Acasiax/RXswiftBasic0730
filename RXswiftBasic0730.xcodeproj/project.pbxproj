@@ -19,6 +19,7 @@
 		AA64D4F42C59390500CC9FE1 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AA64D4F32C59390500CC9FE1 /* RxSwift */; };
 		AA64D4F72C593E1400CC9FE1 /* BasicButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D4F62C593E1400CC9FE1 /* BasicButtonViewController.swift */; };
 		AA64D4F92C593EFD00CC9FE1 /* ButtonRxTapVsLabelRxTex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D4F82C593EFD00CC9FE1 /* ButtonRxTapVsLabelRxTex.swift */; };
+		AA64D5012C5A5FE000CC9FE1 /* CustomSimpleValidationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D5002C5A5FE000CC9FE1 /* CustomSimpleValidationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		AA64D4EB2C5938CC00CC9FE1 /* BasicPracticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicPracticeVC.swift; sourceTree = "<group>"; };
 		AA64D4F62C593E1400CC9FE1 /* BasicButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButtonViewController.swift; sourceTree = "<group>"; };
 		AA64D4F82C593EFD00CC9FE1 /* ButtonRxTapVsLabelRxTex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRxTapVsLabelRxTex.swift; sourceTree = "<group>"; };
+		AA64D5002C5A5FE000CC9FE1 /* CustomSimpleValidationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSimpleValidationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,8 @@
 			children = (
 				AA64D4EB2C5938CC00CC9FE1 /* BasicPracticeVC.swift */,
 				AA64D4DA2C59363000CC9FE1 /* ViewController.swift */,
+				AA64D5002C5A5FE000CC9FE1 /* CustomSimpleValidationVC.swift */,
+				AA64D5042C5A60CE00CC9FE1 /* 공식샘플예제들 */,
 			);
 			name = "과제";
 			path = "수업연습";
@@ -107,6 +111,14 @@
 			);
 			name = "button.rx.tap과 label.rx.text의 차이점";
 			path = "button.rx.tap과 label.rx.text의 차이점";
+			sourceTree = "<group>";
+		};
+		AA64D5042C5A60CE00CC9FE1 /* 공식샘플예제들 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "공식샘플예제들";
+			path = "공식샘플예제들";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +205,7 @@
 				AA64D4D72C59363000CC9FE1 /* AppDelegate.swift in Sources */,
 				AA64D4F72C593E1400CC9FE1 /* BasicButtonViewController.swift in Sources */,
 				AA64D4F92C593EFD00CC9FE1 /* ButtonRxTapVsLabelRxTex.swift in Sources */,
+				AA64D5012C5A5FE000CC9FE1 /* CustomSimpleValidationVC.swift in Sources */,
 				AA64D4EC2C5938CC00CC9FE1 /* BasicPracticeVC.swift in Sources */,
 				AA64D4D92C59363000CC9FE1 /* SceneDelegate.swift in Sources */,
 			);
