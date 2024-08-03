@@ -21,6 +21,7 @@
 		AA64D4F92C593EFD00CC9FE1 /* ButtonRxTapVsLabelRxTex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D4F82C593EFD00CC9FE1 /* ButtonRxTapVsLabelRxTex.swift */; };
 		AA64D5012C5A5FE000CC9FE1 /* CustomSimpleValidationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D5002C5A5FE000CC9FE1 /* CustomSimpleValidationVC.swift */; };
 		AA64D50A2C5A635000CC9FE1 /* CustomNumbersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D5092C5A635000CC9FE1 /* CustomNumbersVC.swift */; };
+		AA64D50C2C5A652000CC9FE1 /* CustomSImpleTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D50B2C5A652000CC9FE1 /* CustomSImpleTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		AA64D4F82C593EFD00CC9FE1 /* ButtonRxTapVsLabelRxTex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRxTapVsLabelRxTex.swift; sourceTree = "<group>"; };
 		AA64D5002C5A5FE000CC9FE1 /* CustomSimpleValidationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSimpleValidationVC.swift; sourceTree = "<group>"; };
 		AA64D5092C5A635000CC9FE1 /* CustomNumbersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNumbersVC.swift; sourceTree = "<group>"; };
+		AA64D50B2C5A652000CC9FE1 /* CustomSImpleTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSImpleTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				AA64D4DA2C59363000CC9FE1 /* ViewController.swift */,
 				AA64D5002C5A5FE000CC9FE1 /* CustomSimpleValidationVC.swift */,
 				AA64D5092C5A635000CC9FE1 /* CustomNumbersVC.swift */,
+				AA64D50B2C5A652000CC9FE1 /* CustomSImpleTableVC.swift */,
 			);
 			name = "과제";
 			path = "수업연습";
@@ -198,6 +201,7 @@
 				AA64D50A2C5A635000CC9FE1 /* CustomNumbersVC.swift in Sources */,
 				AA64D4DB2C59363000CC9FE1 /* ViewController.swift in Sources */,
 				AA64D4D72C59363000CC9FE1 /* AppDelegate.swift in Sources */,
+				AA64D50C2C5A652000CC9FE1 /* CustomSImpleTableVC.swift in Sources */,
 				AA64D4F72C593E1400CC9FE1 /* BasicButtonViewController.swift in Sources */,
 				AA64D4F92C593EFD00CC9FE1 /* ButtonRxTapVsLabelRxTex.swift in Sources */,
 				AA64D5012C5A5FE000CC9FE1 /* CustomSimpleValidationVC.swift in Sources */,
